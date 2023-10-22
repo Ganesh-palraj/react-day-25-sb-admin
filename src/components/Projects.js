@@ -46,9 +46,9 @@ function Projects() {
             <h6 className="m-0 font-weight-bold text-primary">Projects</h6>
           </div>
           <div className="card-body">
-            {ProjectData.map((data) => (
+            {ProjectData.map((data , i) => (
               <>
-                <div className="row project-heading">
+                <div className="row project-heading" key={i}>
                   <span>
                     <div>{data.name}</div>
                     <div>{data.percentage}</div>

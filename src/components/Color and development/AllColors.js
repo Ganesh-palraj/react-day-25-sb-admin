@@ -59,7 +59,7 @@ const AllColors = () => {
   return (
     <div className="row">
       {colorsData.map((value, Id) => (
-        <div className=" col-md-12 col-lg-6 g-3">
+        <div className=" col-md-12 col-lg-6 g-3" key={value.Id}>
           <Card
             className="card colors-card p-3"
             bg={value.colorName}
