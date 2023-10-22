@@ -1,0 +1,70 @@
+.sidebar {
+    min-height: 100vh;
+    /* min-width: min-content 20%; */
+    /* width: 20%; */
+    background-color: #4e73df;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  #basic-addon1 {
+    background-color: #4e73df;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    color: whitesmoke;
+    padding: 0;
+  }
+  
+  li {
+    padding-top: 5px;
+    font-size: small;
+  }
+  p {
+    font-size: x-small;
+    color: #93abec;
+  }
+  hr {
+    background-color: white;
+  }
+  .heading {
+    display: flex;
+  }
+  #laugh-icon {
+    height: 20px;
+    margin: 10px;
+  }
+  
+  .nav-items , .heading , p , .toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* margin: 5px; */
+  }
+
+  .dashboard-icon , .laugh-icon{
+    margin: 10px;
+  } 
+
+  .nav-items{
+    margin: auto;
+  }
+
+  .nav-link{
+    gap: 5px;
+  }
+
+  #sidebarToggle{
+    border-radius: 50px;
+  }
+
+  .toggler-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
